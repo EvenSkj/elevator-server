@@ -16,6 +16,7 @@ mod channel;
 /// This is a opaque rust equivalent for comedi_t inside libcomedi.h
 #[allow(non_camel_case_types)]
 enum comedi_t {}
+//Added comment
 
 #[link(name = "comedi")]
 extern "C" {
