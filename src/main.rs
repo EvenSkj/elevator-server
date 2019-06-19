@@ -17,6 +17,7 @@ mod channel;
 #[allow(non_camel_case_types)]
 enum comedi_t {}
 //Added comment
+//Added a new comment
 
 #[link(name = "comedi")]
 extern "C" {
